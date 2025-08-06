@@ -1,0 +1,8 @@
+/config-templates
+Dockerfile
+README.md
+.cache-info
+.dockerignore
+.env
+.gitignore
+.git
