@@ -89,8 +89,8 @@ mv myl4d2addons_original_talker.vpk "${ADDONS_DIR}/"
 
 # L4D2-PLUGINS
 
-# https://github.com/fbef0102/L4D2-Plugins
-sparseCloneAndMove 'https://github.com/fbef0102/L4D2-Plugins' "l4d2_ty_saveweapons" "${SOURCEMOD_DIR}"
+# https://github.com/fbef0102/L4D1_2-Plugins
+sparseCloneAndMove 'https://github.com/fbef0102/L4D1_2-Plugins' "l4d2_ty_saveweapons" "${SOURCEMOD_DIR}"
 
 # [L4D2]Character_manager (1.4.1 - 22/09/2019 )
 # https://forums.alliedmods.net/showthread.php?t=309601
