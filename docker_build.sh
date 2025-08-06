@@ -5,8 +5,6 @@ set -e
 BASE_DIR=$(pwd)
 export DOCKER_BUILDKIT=${DOCKER_BUILDKIT:-1}
 
-mkdir -p .cache
-
 if [[ -z $1 ]]; then
     echo Specify containers to run 'docker build . -t ARG --build-arg CACHE_DATE=$(date)' against/
     echo e.g. 'docker_build.sh base,steamcmd,l4d2,l4d2-metamod'
