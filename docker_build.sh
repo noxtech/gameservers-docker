@@ -18,6 +18,7 @@ do
     echo "Using CACHE_DATE in case updates have been made..."
         docker build \
         --build-arg CACHE_DATE="$(date)" \
+        --progress=plain \
         -t ${i} \
         -t ${i}:latest \
         -t ${i}:$(date +"%Y%m%d-%H%M%S") \
